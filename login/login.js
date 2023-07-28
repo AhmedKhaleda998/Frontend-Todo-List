@@ -5,16 +5,13 @@ const loginBtn = document.getElementById('loginBtn');
 loginBtn.addEventListener('click', () => {
     const username = usernameInput.value;
     const password = passwordInput.value;
-
-    const login = {
-        username: username,
-        password: password,
-    };
-
-    if (login.username === 'admin' && login.password === '123') {
-        showMessage('Welcome');
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+    if (username.trim() === '' || password.trim() === '') {
+        showMessage('Please fill in both username and password fields.');
+    } else if (!passwordRegex.test(password)) {
+        showMessage('Password must contain at least one lowercase letter, one uppercase letter, one digit, and be at least 8 characters long.');
     } else {
-        showMessage('Not registered');
+        showMessage('Welcome');
     }
 });
 
@@ -23,7 +20,7 @@ function showMessage(message) {
     messageDiv.textContent = message;
     if (message === 'Welcome') {
         messageDiv.style.backgroundColor = '#4CAF50';
-    }else{
+    } else {
         messageDiv.style.backgroundColor = '#DC3545';
     }
     messageDiv.style.color = '#fff';
