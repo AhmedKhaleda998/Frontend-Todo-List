@@ -1,0 +1,63 @@
+.title {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.brown {
+    color: brown;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.check {
+    display: flex;
+}
+
+.phone-group {
+    display: flex;
+}
+
+.phone-group input {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.terms {
+    margin: 5px 2px;
+}
+
+.ast {
+    color: brown;
+}
+
+.fld {
+    margin: 15px 0 20px 10px;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin: 0 20px;
+}
+
+.cont {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+.brown {
+    color: brown;
+}
+
+.top {
+    text-align: center;
+}
