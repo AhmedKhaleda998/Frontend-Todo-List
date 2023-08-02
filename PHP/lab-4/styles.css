@@ -1,0 +1,133 @@
+/* Reset default margin and padding */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style page containers */
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style form elements */
+form {
+    margin-top: 20px;
+}
+
+label, input[type="text"], input[type="email"], input[type="radio"], input[type="checkbox"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Style buttons */
+input[type="submit"], a.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, a.button:hover {
+    background-color: #0056b3;
+}
+
+/* Add margin to buttons */
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Add margin to form links */
+form a {
+    margin-top: 10px;
+    display: block;
+}
+
+/* Style navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar-button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.beside {
+    display: flex;
+}
+
+.label-radio {
+    margin-top: 10px;
+}
+
+.label {
+    margin-top: 5px;
+}
